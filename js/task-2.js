@@ -10,7 +10,7 @@ console.log(ingredients);
 
 const createList = ingredient => {
     const itemEl = document.createElement('li')
-    itemEl.textContent = el;
+    itemEl.textContent = ingredient;
     
     return itemEl;
 };
